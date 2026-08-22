@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* Кнопка Join */
+#joinBtn {
+    padding: 12px 30px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#joinBtn:hover {
+    background: #444;
+}
+/* Затемнення */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+background: rgba(0, 0, 0, 0.65);
+
+justify-content: center;
+align-items: center;
+}
+/* Вікно */
+.registration {
+    width: 350px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+.registration h2 {
+    text-align: center;
+    margin-top: 0;
+}
+/* Поля */
+.registration input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+border: 1px solid #ccc;
+border-radius: 7px;
+
+box-sizing: border-box;
+font-size: 14px;
+}
+/* Кнопка реєстрації */
+.registerBtn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+background: #222;
+color: white;
+
+border: none;
+border-radius: 7px;
+
+cursor: pointer;
+font-size: 15px;
+}
+.registerBtn:hover {
+    background: #444;
+}
+/* Хрестик */
+.close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+background: none;
+border: none;
+
+font-size: 25px;
+cursor: pointer;
+}
