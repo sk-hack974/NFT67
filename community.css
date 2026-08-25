@@ -5,15 +5,6 @@ body {
   color: #111;
 }
 
-.join {
-  justify-self: end;
-  background: #121214;
-  color: #fff;
-  padding: 15px 24px;
-  border-radius: 999px;
-  font-weight: 700;
-  text-decoration: none;
-}
 
 header {
   width: 900px;
@@ -30,6 +21,15 @@ header {
   box-sizing: border-box;
 }
 
+.join {
+  justify-self: end;
+  background: #121214;
+  color: #fff;
+  padding: 15px 24px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+}
 
 .logo {
   font-size: 20px;
@@ -43,14 +43,20 @@ nav {
   gap: 45px;
 }
 
-nav a {
+.community {
+  color: green;
+}
+
+.about {
   color: black;
+}
+
+nav a {
   text-decoration: none;
-  font-size: 14px;
 }
 
 nav .active {
-  color: #00a83b;
+  color: black;
 }
 
 
