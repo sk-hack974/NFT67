@@ -5,6 +5,15 @@ body {
   color: #111;
 }
 
+.join {
+  justify-self: end;
+  background: #121214;
+  color: #fff;
+  padding: 15px 24px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+}
 
 header {
   width: 900px;
