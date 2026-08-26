@@ -1,18 +1,45 @@
 body {
- margin: 0;
+  margin: 0;
   background-color: #f5f6fa;
   font-family: Arial, sans-serif;
   color: #3f4858;
 }
 
-a:hover {
+.logo:hover {
+  color: green;
+}
+
+nav a {
+  color: black;
+}
+
+.join:hover {
+  color: green;
+}
+
+.active:hover {
+  color: green;
   text-decoration: none;
-  color: white;
 }
 
 .nav:hover {
   text-decoration: none;
-  color: white;
+  color: green;
+}
+
+.about:hover {
+  color: green;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: green;
+  text-align: none;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: green;
 }
 
 header {
@@ -27,12 +54,13 @@ header {
   justify-content: space-between;
 
 
- width: 100%;
-    margin: 0;
-    padding-left: 125px;
-    padding-right: 125px;
+  width: 100%;
+  margin: 0;
+  padding-left: 125px;
+  padding-right: 125px;
 
- 
+  border: 3px solid green;
+
   padding: 0 30px;
   box-sizing: border-box;
 }
@@ -94,11 +122,11 @@ main {
   margin: 0 auto;
   background-color: white;
 
- width: 100%;
-    margin: 0;
-    padding-left: 125px;
-    padding-right: 125px;
- 
+  width: 100%;
+  margin: 0;
+  padding-left: 125px;
+  padding-right: 125px;
+
   padding: 30px;
   box-sizing: border-box;
 }
@@ -116,6 +144,8 @@ main {
 
 .text {
   flex: 1;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 .text h2 {
@@ -157,13 +187,13 @@ footer {
 
   background-color: white;
 
- width: 100%;
-    margin: 0;
-    padding-left: 125px;
-    padding-right: 125px;
+  width: 100%;
+  margin: 0;
+  padding-left: 125px;
+  padding-right: 125px;
 
- 
-  border-top: 1px solid #eee;
+
+  border: 3px solid green;
 
   display: flex;
   align-items: center;
@@ -171,6 +201,8 @@ footer {
 
   padding: 0 30px;
   box-sizing: border-box;
+
+  
 
   font-size: 10px;
 }
