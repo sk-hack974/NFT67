@@ -11,6 +11,10 @@
   color: green;
 }
 
+nav a {
+  color: black;
+}
+
 .join:hover {
   color:green;
 }
