@@ -3,19 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Авторизація</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <button id="joinBtn">Join</button>
     <div class="modal" id="modal">
-        <div class="registration">
+        <div class="login-box">
             <button class="close" id="closeBtn">&times;</button>
-            <h2>Реєстрація</h2>
-            <input type="text" placeholder="Ім'я">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Пароль">
-            <button class="registerBtn">Зареєструватися</button>
+            <h1>Авторизація</h1>
+            <label>Введіть свій логін</label>
+            <input type="text" placeholder="Введіть логін">
+            <label>Введіть пароль</label>
+            <div class="password-box">
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Введіть пароль"
+                >
+                <button type="button" id="showPassword">◉</button>
+            </div>
+            <label class="remember">
+                <input type="checkbox">
+                <span>Запам'ятати мене на цьому комп'ютері</span>
+            </label>
+            <button class="loginBtn">Увійти</button>
         </div>
     </div>
     <script src="script.js"></script>
