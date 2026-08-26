@@ -3,6 +3,7 @@ body {
 }
 
 .site-header {
+  font-weight: bold;
   height: 108px;
   border-bottom: 1px solid var(--line);
   display: grid;
