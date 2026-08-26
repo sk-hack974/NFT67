@@ -9,17 +9,8 @@ body {
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   padding: 0 max(24px, calc((100vw - 1240px) / 2));
-  background-color: #D9D9D9;
-}
-
-a:hover {
-  text-decoration: none;
-  color: white;
-}
-
-.nav:hover {
-  text-decoration: none;
-  color: white;
+  background-color: white;
+  border: 3px solid green;
 }
 
 .logo {
@@ -30,10 +21,41 @@ a:hover {
   color: black;
 }
 
+.logo:hover {
+  color: green;
+}
+
+nav a {
+  color: black;
+}
+
+.join:hover {
+  color: green;
+}
+
+button:hover {
+  color: green;
+}
+
+.nav:hover {
+  text-decoration: none;
+  color: green;
+}
+
+footer a:hover {
+  color: green;
+  text-align: none;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: green;
+}
+
 .nav {
   display: flex;
   gap: 44px;
-  color: #3f4858;
+  color: black;
   font-size: 17px;
   font-weight: 500;
 }
@@ -53,7 +75,7 @@ a:hover {
 }
 
 .Community {
-  color: #3f4858;
+  color: black;
   text-decoration: none;
 }
 
@@ -73,8 +95,9 @@ a:hover {
 main p {
   padding: 20px;
   padding-bottom: 40px;
-  background-color: #D9D9D9;
+  background-color: white;
   border-radius: 20px;
+  border: 3px solid green;
 }
 
 .footer {
@@ -83,7 +106,8 @@ main p {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  background-color: #D9D9D9;
+  background-color: white;
+  border: 3px solid green;
 }
 
 .footer p {
@@ -198,7 +222,6 @@ main p {
     background-size: 246%;
     background-position: 60% 13%;
   }
-
 
   .section-head {
     align-items: start;
