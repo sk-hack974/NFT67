@@ -5,6 +5,15 @@ body {
   color: #111;
 }
 
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nav:hover {
+  text-decoration: none;
+  color: white;
+}
 
 header {
   width: 900px;
