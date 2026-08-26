@@ -12,6 +12,16 @@ body {
   background-color: #D9D9D9;
 }
 
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nav:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .logo {
   font-size: 24px;
   font-weight: 800;
