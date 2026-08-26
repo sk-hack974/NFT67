@@ -1,6 +1,5 @@
 body {
- margin: 50px;
-  padding: 50px;
+ margin: 0;
   background-color: #f5f6fa;
   font-family: Arial, sans-serif;
   color: #3f4858;
@@ -17,7 +16,7 @@ a:hover {
 }
 
 header {
-  width: 900px;
+  width: 0;
   margin: 0 auto;
   background-color: white;
 
@@ -84,7 +83,7 @@ button {
 
 
 main {
-  width: 900px;
+  width: 0;
   margin: 0 auto;
   background-color: white;
 
@@ -139,7 +138,7 @@ main {
 
 
 footer {
-  width: 900px;
+  width: 0;
   height: 70px;
 
   margin: 0 auto;
