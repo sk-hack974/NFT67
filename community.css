@@ -49,6 +49,8 @@ header {
 
   height: 70px;
 
+  font-weight: bold;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
