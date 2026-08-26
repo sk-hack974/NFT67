@@ -7,6 +7,16 @@
   --soft: #f7f9fb;
 }
 
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nav:hover {
+  text-decoration: none;
+  color: white;
+}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
