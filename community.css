@@ -94,6 +94,11 @@ main {
   margin: 0 auto;
   background-color: white;
 
+ width: 100%;
+    margin: 0;
+    padding-left: 125px;
+    padding-right: 125px;
+ 
   padding: 30px;
   box-sizing: border-box;
 }
@@ -152,6 +157,12 @@ footer {
 
   background-color: white;
 
+ width: 100%;
+    margin: 0;
+    padding-left: 125px;
+    padding-right: 125px;
+
+ 
   border-top: 1px solid #eee;
 
   display: flex;
