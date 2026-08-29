@@ -7,6 +7,21 @@
   --soft: #f7f9fb;
 }
 
+iframe {
+  width: 300px;
+  height: 300px;
+}
+
+.guides {
+  display: block;
+  justify-content: space-between;
+}
+
+.guides  h1 {
+  font-weight: bold;
+  
+}
+
 .logo:hover {
   color: green;
 }
