@@ -45,7 +45,7 @@ footer a:hover {
   color: green;
 }
 
-.site-header {
+header {
   height: 108px;
   border-bottom: 3px solid green;
   display: grid;
